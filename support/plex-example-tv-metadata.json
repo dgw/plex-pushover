@@ -1,0 +1,48 @@
+{jjjjjjjjj
+    "Account": {
+        "id": 1,
+        "thumb": "thumburl",
+        "title": "username"
+    },
+    "Metadata": {
+        "addedAt": 1487220327,
+        "art": "/library/metadata/35277/art/1487220364",
+        "grandparentArt": "/library/metadata/35277/art/1487220364",
+        "grandparentKey": "/library/metadata/35277",
+        "grandparentRatingKey": "35277",
+        "grandparentTheme": "/library/metadata/35277/theme/1487220364",
+        "grandparentThumb": "/library/metadata/35277/thumb/1487220364",
+        "grandparentTitle": "Full Frontal with Samantha Bee",
+        "guid": "com.plexapp.agents.thetvdb://303438/2/1?lang=en",
+        "index": 1,
+        "key": "/library/metadata/98088",
+        "librarySectionID": 2,
+        "librarySectionKey": "/library/sections/2",
+        "librarySectionType": "show",
+        "originallyAvailableAt": "2017-02-15",
+        "parentIndex": 2,
+        "parentKey": "/library/metadata/98087",
+        "parentRatingKey": "98087",
+        "parentTitle": "Season 2",
+        "ratingKey": "98088",
+        "summary": "",
+        "thumb": "/library/metadata/98088/thumb/1487220362",
+        "title": "February 15, 2017",
+        "type": "episode",
+        "updatedAt": 1487220362,
+        "year": 2017
+    },
+    "Player": {
+        "local": true,
+        "publicAddress": "ip",
+        "title": "Plex Web (Safari)",
+        "uuid": "uuid"
+    },
+    "Server": {
+        "title": "servername",
+        "uuid": "uuid"
+    },
+    "event": "media.play",
+    "owner": true,
+    "user": true
+}

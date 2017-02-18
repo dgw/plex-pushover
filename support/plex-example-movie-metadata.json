@@ -1,0 +1,192 @@
+{
+    "Account": {
+        "id": 1,
+        "thumb": "thumburl",
+        "title": "username"
+    },
+    "Metadata": {
+        "Country": [
+            {
+                "count": 353,
+                "filter": "country=23",
+                "id": 23,
+                "tag": "USA"
+            }
+        ],
+        "Director": [
+            {
+                "filter": "director=39702",
+                "id": 39702,
+                "tag": "Howard R. Cohen"
+            }
+        ],
+        "Genre": [
+            {
+                "count": 33,
+                "filter": "genre=5193",
+                "id": 5193,
+                "tag": "Sci-Fi"
+            },
+            {
+                "count": 90,
+                "filter": "genre=222",
+                "id": 222,
+                "tag": "Action"
+            },
+            {
+                "count": 69,
+                "filter": "genre=89",
+                "id": 89,
+                "tag": "Adventure"
+            }
+        ],
+        "Producer": [
+            {
+                "filter": "producer=39715",
+                "id": 39715,
+                "tag": "Roger Corman"
+            }
+        ],
+        "Role": [
+            {
+                "filter": "actor=39704",
+                "id": 39704,
+                "role": "Hawk",
+                "tag": "Vince Edwards",
+                "thumb": "http://image.tmdb.org/t/p/original/n0OQUPMQOdURLak6ywgqxMFSTtz.jpg"
+            },
+            {
+                "count": 2,
+                "filter": "actor=35519",
+                "id": 35519,
+                "role": "Peter",
+                "tag": "David Mendenhall"
+            },
+            {
+                "count": 2,
+                "filter": "actor=13227",
+                "id": 13227,
+                "role": "Aldebarian",
+                "tag": "Drew Snyder"
+            },
+            {
+                "filter": "actor=39705",
+                "id": 39705,
+                "role": "Amanda",
+                "tag": "Patsy Pease"
+            },
+            {
+                "filter": "actor=39706",
+                "id": 39706,
+                "role": "Flightplain",
+                "tag": "Thom Christopher",
+                "thumb": "http://image.tmdb.org/t/p/original/6tuoVxAeEAHNTxKzHEeNwsYHL3r.jpg"
+            },
+            {
+                "filter": "actor=39707",
+                "id": 39707,
+                "role": "Ace",
+                "tag": "Luca Bercovici"
+            },
+            {
+                "filter": "actor=39708",
+                "id": 39708,
+                "role": "Zariatin",
+                "tag": "Ray Stewart"
+            },
+            {
+                "count": 2,
+                "filter": "actor=11983",
+                "id": 11983,
+                "role": "Tracton",
+                "tag": "George Dickerson"
+            },
+            {
+                "filter": "actor=39709",
+                "id": 39709,
+                "role": "Lou",
+                "tag": "Michael Miller"
+            },
+            {
+                "filter": "actor=39710",
+                "id": 39710,
+                "role": "Janeris",
+                "tag": "Virginia Kiser"
+            },
+            {
+                "filter": "actor=39711",
+                "id": 39711,
+                "role": "Jessup",
+                "tag": "Don Washburn"
+            },
+            {
+                "filter": "actor=39712",
+                "id": 39712,
+                "role": "Elmer",
+                "tag": "Howard Dayton"
+            },
+            {
+                "count": 5,
+                "filter": "actor=35900",
+                "id": 35900,
+                "role": "Crazy Mel",
+                "tag": "Dick Miller",
+                "thumb": "http://image.tmdb.org/t/p/original/m4Yx1MaNn3H95HLTBCMNHOfUVv8.jpg"
+            },
+            {
+                "filter": "actor=39713",
+                "id": 39713,
+                "role": "Cookie",
+                "tag": "Elizabeth Charlton"
+            },
+            {
+                "filter": "actor=39714",
+                "id": 39714,
+                "role": "Taggert",
+                "Tag": "William Boyett",
+                "thumb": "http://image.tmdb.org/t/p/original/bXMRPKQjv0BuMGGsgO1ewpIbODl.jpg"
+            }
+        ],
+        "Writer": [
+            {
+                "filter": "writer=39703",
+                "id": 39703,
+                "tag": "Howard R. Cohen"
+            }
+        ],
+        "addedAt": 1486866996,
+        "art": "/library/metadata/97313/art/1486867052",
+        "contentRating": "PG",
+        "duration": 5040000,
+        "guid": "com.plexapp.agents.imdb://tt0086345?lang=en",
+        "key": "/library/metadata/97313",
+        "librarySectionID": 1,
+        "librarySectionKey": "/library/sections/1",
+        "librarySectionType": "movie",
+        "originallyAvailableAt": "1983-07-01",
+        "rating": 4.7,
+        "ratingImage": "imdb://image.rating",
+        "ratingKey": "97313",
+        "studio": "Millennium Films",
+        "summary": "A futuristic, sensitive tale of adventure and confrontation when a 10 year old boy is accidentally kidnapped by a spaceship filled with a motley crew of space pirates.",
+        "tagline": "He's ten years old and they've taken him ten-million miles into space.",
+        "thumb": "/library/metadata/97313/thumb/1486867052",
+        "title": "Space Raiders",
+        "type": "movie",
+        "updatedAt": 1486867052,
+        "year": 1983
+    },
+    "Player": {
+        "local": true,
+        "publicAddress": "ip",
+        "title": "Plex Web (Safari)",
+        "uuid": "uuid"
+    },
+    "Server": {
+        "title": "servername",
+        "uuid": "uuid"
+    },
+    "event": "media.play",
+    "owner": true,
+    "user": true
+}

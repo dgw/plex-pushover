@@ -11,3 +11,5 @@ $ PUSHOVER_USER=pushover-user-key PUSHOVER_TOKEN=pushover-api-token node index.j
 ```
 
 Finally, add the webhook to https://app.plex.tv/web/app#!/account/webhooks (it'll be http://localhost:10000).
+
+The app also accepts a custom port number from the `PLEXPUSH_PORT` environment variable.

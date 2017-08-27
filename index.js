@@ -18,12 +18,12 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
 	if(payload.event === "media.play") {
 		var msg = {};
 
-		if(payload.Metadata.librarySectionID === 1) {
+		if(payload.Metadata.type === 'movie') {
 			// Movies
 			msg.title = "Plex: " + payload.Account.title;
 			msg.message = payload.Metadata.title;
 		}
-		else if(payload.Metadata.librarySectionID === 2) {
+		else if(payload.Metadata.type === 'episode') {
 			// TV Shows
 			msg.title = "Plex: " + payload.Account.title;
 			msg.message = "Show: " + payload.Metadata.grandparentTitle +

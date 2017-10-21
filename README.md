@@ -1,6 +1,6 @@
 In order to run this app:
  
-- Install [node.js](https://nodejs.org/en/).
+- Install [node.js](https://nodejs.org/en/) (version 8 or above).
 - Clone the repository.
 - Install dependencies using `npm install`.
 

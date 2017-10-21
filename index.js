@@ -24,10 +24,12 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
 			msg.message = payload.Metadata.title;
 		}
 		else if(payload.Metadata.type === 'episode') {
-			// TV Shows
+			// TV Shows - note padStart() requires node 8, or the --harmony flag in node 7
 			msg.title = "Plex: " + payload.Account.title;
 			msg.message = "Show: " + payload.Metadata.grandparentTitle +
-							"\nEpisode: " + payload.Metadata.title;
+					"\nEpisode: " + payload.Metadata.parentIndex +
+					"x" + payload.Metadata.index.toString().padStart(2, "0") +
+					" " + payload.Metadata.title;
 		}
 
 		msg.url = "https://app.plex.tv/web/app#!/server/" + 

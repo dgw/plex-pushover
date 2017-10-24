@@ -13,7 +13,7 @@ var p = new push( {
 });
 
 app.get('*', function (req, res) {
-	res.status(405).end();
+	res.sendStatus(405);
 });
 
 app.post('/', upload.single('thumb'), function (req, res, next) {

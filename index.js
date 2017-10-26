@@ -12,6 +12,10 @@ var p = new push( {
 	token: process.env['PUSHOVER_TOKEN'],
 });
 
+app.get('*', function (req, res) {
+	res.sendStatus(405);
+});
+
 app.post('/', upload.single('thumb'), function (req, res, next) {
 	var payload = JSON.parse(req.body.payload);
 

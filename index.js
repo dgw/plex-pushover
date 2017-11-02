@@ -25,7 +25,10 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
 		if(payload.Metadata.type === 'movie') {
 			// Movies
 			msg.title = "Plex: " + payload.Account.title;
-			msg.message = payload.Metadata.title + " (" + payload.Metadata.year + ")";
+			msg.message = payload.Metadata.title;
+			if(payload.Metadata.year !== undefined) {
+				msg.message += " (" + payload.Metadata.year + ")";
+			}
 		}
 		else if(payload.Metadata.type === 'episode') {
 			// TV Shows - note padStart() requires node 8, or the --harmony flag in node 7

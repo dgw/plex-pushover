@@ -35,6 +35,11 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
 					"x" + payload.Metadata.index.toString().padStart(2, "0") +
 					" " + payload.Metadata.title;
 		}
+		else {
+			// "Unsupported Media Type" is a good in-joke for this, isn't it?
+			res.sendStatus(415);
+			return;
+		}
 
 		msg.url = "https://app.plex.tv/web/app#!/server/" + 
 					payload.Server.uuid + "/details/" + 

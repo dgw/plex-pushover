@@ -1,0 +1,60 @@
+{
+    "Account": {
+        "id": 1,
+        "thumb": "thumburl",
+        "title": "username"
+    },
+    "Metadata": {
+        "Mood": [
+            {
+                "id": 37701,
+                "filter": "mood=37701",
+                "tag": "Powerful"
+            },
+            {
+                "id": 37702,
+                "filter": "mood=37702",
+                "tag": "Heroic"
+            }
+        ],
+        "addedAt": 1415498080,
+        "art": "/library/metadata/57484/art/1508157401",
+        "grandparentArt": "/library/metadata/57484/art/1508157401",
+        "grandparentKey": "/library/metadata/57484",
+        "grandparentRatingKey": "57484",
+        "grandparentThumb": "/library/metadata/57484/thumb/1508157401",
+        "grandparentTitle": "Taylor Swift",
+        "guid": "com.plexapp.agents.plexmusic://gracenote/track/212773641-A6CF9BAC46730DD9766EC971712D6615/212773644-AD4CA5A8A3A1C8E2AE8B86D3183D7134?lang=en",
+        "index": 3,
+        "key": "/library/metadata/57592",
+        "librarySectionID": 8,
+        "librarySectionKey": "/library/sections/8",
+        "librarySectionType": "artist",
+        "originalTitle": "Taylor Swift",
+        "parentIndex": 1,
+        "parentKey": "/library/metadata/57589",
+        "parentRatingKey": "57589",
+        "parentThumb": "/library/metadata/57589/thumb/1489471649",
+        "parentTitle": "Fearless",
+        "ratingCount": 4990562,
+        "ratingKey": "57592",
+        "summary": "",
+        "thumb": "/library/metadata/57589/thumb/1489471649",
+        "title": "Love Story",
+        "type": "track",
+        "updatedAt": 1489471635
+    },
+    "Player": {
+        "local": true,
+        "publicAddress": "ip",
+        "title": "Plex Web (Chrome)",
+        "uuid": "uuid"
+    },
+    "Server": {
+        "title": "servername",
+        "uuid": "uuid"
+    },
+    "event": "media.play",
+    "owner": true,
+    "user": true
+}

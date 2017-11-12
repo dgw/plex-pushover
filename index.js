@@ -36,6 +36,7 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
 					" " + payload.Metadata.title;
 		}
 
+		msg.title += " via " + payload.Player.title + " (" + ((payload.Player.local) ? "local" : "remote") + ")";
 		msg.url = "https://app.plex.tv/web/app#!/server/" + 
 					payload.Server.uuid + "/details/" + 
 					encodeURIComponent(payload.Metadata.key);

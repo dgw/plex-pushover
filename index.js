@@ -54,6 +54,10 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
 	
 		res.sendStatus(200);
 	}
+	else {
+		// Unknown action, send a "Not Implemented" error response
+		res.sendStatus(501);
+	}
 });
 
 app.listen(process.env['PLEXPUSH_PORT'] || 10000);

@@ -29,22 +29,19 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
             if(payload.Metadata.year !== undefined) {
                 msg.message += " (" + payload.Metadata.year + ")";
             }
-        }
-        else if(payload.Metadata.type === 'episode') {
+        } else if(payload.Metadata.type === 'episode') {
             // TV Shows - note padStart() requires node 8, or the --harmony flag in node 7
             msg.title = "Plex: " + payload.Account.title;
             msg.message = "Show: " + payload.Metadata.grandparentTitle +
                     "\nEpisode: " + payload.Metadata.parentIndex +
                     "x" + payload.Metadata.index.toString().padStart(2, "0") +
                     " " + payload.Metadata.title;
-        }
-        else if(payload.Metadata.type === 'track') {
+        } else if(payload.Metadata.type === 'track') {
             msg.title = "Plex: " + payload.Account.title;
             msg.message = "Track: " + payload.Metadata.title + "\nby " +
                     payload.Metadata.grandparentTitle + "\non " +
                     payload.Metadata.parentTitle;
-        }
-        else {
+        } else {
             // "Unsupported Media Type" is a good in-joke for this, isn't it?
             res.sendStatus(415);
             return;
@@ -65,8 +62,7 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
         });
     
         res.sendStatus(200);
-    }
-    else {
+    } else {
         // Unknown action, send a "Not Implemented" error response
         res.sendStatus(501);
     }

@@ -57,8 +57,6 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
             if( err ) {
                 throw err;
             }
-
-            // console.log( result );
         });
     
         res.sendStatus(200);

@@ -9,5 +9,7 @@
     "request": "^2.79.0",
     "pushover-notifications": "^0.2.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^4.18.1"
+  }
 }

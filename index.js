@@ -38,6 +38,12 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
 					"x" + payload.Metadata.index.toString().padStart(2, "0") +
 					" " + payload.Metadata.title;
 		}
+		else if(payload.Metadata.type === 'track') {
+			msg.title = "Plex: " + payload.Account.title;
+			msg.message = "Track: " + payload.Metadata.title + "\nby " +
+					payload.Metadata.grandparentTitle + "\non " +
+					payload.Metadata.parentTitle;
+		}
 		else {
 			// "Unsupported Media Type" is a good in-joke for this, isn't it?
 			res.sendStatus(415);

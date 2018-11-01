@@ -9,8 +9,44 @@ env:
   node: true
 
 rules:
+  array-bracket-newline: [error, {multiline: true, minItems: 3}]
+  array-bracket-spacing: [error, always, {singleValue: false, objectsInArrays: false, arraysInArrays: false}]
+  array-element-newline: [error, {multiline: true, minItems: 3}]
+  block-spacing: [error, always]
   brace-style: [error, 1tbs]
+  comma-dangle: [error, always-multiline]
+  comma-spacing: [error, {before: false, after: true}]
+  comma-style: [error, last]
+  curly: [error, all]
+  eol-last: error
+  function-paren-newline: [error, multiline]
+  global-require: error
   indent: [error, 4, {VariableDeclarator: 2}]
+  key-spacing: [error, {beforeColon: false, afterColon: true, mode: strict, align: value}]
+  keyword-spacing: [error, {before: true, after: true}]
+  linebreak-style: [error, unix]
+  no-extra-parens: [error, all]
+  no-mixed-requires: error
+  no-mixed-spaces-and-tabs: error
+  no-multi-assign: error
+  no-multi-spaces: [error, {ignoreEOLComments: true}]
+  no-new-require: error
+  no-template-curly-in-string: error
+  no-trailing-spaces: error
+  no-useless-concat: error
   no-var: error
+  object-curly-newline: [error, {multiline: true, minProperties: 2}]
+  object-curly-spacing: [error, always]
+  object-property-newline: [error, {allowAllPropertiesOnSameLine: true}]
   one-var: [error, {initialized: never, uninitialized: always}]
   prefer-const: error
+  prefer-template: warn
+  semi-spacing: error
+  semi-style: [error, last]
+  semi: [error, always]
+  space-before-blocks: [error, always]
+  space-before-function-paren: [error, {anonymous: never, named: never, asyncArrow: always}]
+  space-in-parens: [error, never]
+  space-infix-ops: error
+  spaced-comment: [error, always]
+  template-curly-spacing: [error, never]

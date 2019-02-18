@@ -49,7 +49,7 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
 
         msg.title += " via " + payload.Player.title + " (" + ((payload.Player.local) ? "local" : "remote") + ")";
         msg.url = "https://app.plex.tv/desktop#!/server/" + 
-                    payload.Server.uuid + "/details/" + 
+                    payload.Server.uuid + "/details?key=" + 
                     encodeURIComponent(payload.Metadata.key);
         msg.url_title = "View details";
 

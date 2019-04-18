@@ -52,6 +52,7 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
                     payload.Server.uuid + "/details?key=" + 
                     encodeURIComponent(payload.Metadata.key);
         msg.url_title = "View details";
+        msg.priority = -1;
 
         p.send( msg, function( err, result) {
             if( err ) {

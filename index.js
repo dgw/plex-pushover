@@ -14,7 +14,7 @@ var p = new push( {
     token: process.env['PUSHOVER_TOKEN'],
 });
 
-app.get('*', function (req, res) {
+app.get('/', function (req, res) {
     res.header('Allow', 'POST').sendStatus(405);
 });
 

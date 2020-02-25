@@ -4,6 +4,8 @@ var express = require('express')
 
 var upload = multer({ dest: '/tmp/' });
 var app = express();
+app.disable('x-powered-by');
+// No need to advertise what framework we're using to network fuzzers
 
 var push = require('pushover-notifications');
 

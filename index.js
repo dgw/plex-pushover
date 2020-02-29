@@ -15,7 +15,7 @@ var p = new push( {
 });
 
 app.get('*', function (req, res) {
-    res.sendStatus(405);
+    res.header('Allow', 'POST').sendStatus(405);
 });
 
 app.post('/', upload.single('thumb'), function (req, res, next) {
